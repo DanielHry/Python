@@ -3,6 +3,8 @@
 Created on Wed Apr 15 2020
 
 @author: Daniel Hryniewski
+
+Fibonacci Sequence - Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
 """
 
 def range_choise():

@@ -3,6 +3,9 @@
 Created on Thu Apr 16 2020
 
 @author: Daniel Hryniewski
+
+Sieve of Eratosthenes - The sieve of Eratosthenes is one of the most efficient
+ways to find all of the smaller primes (below 10 million or so).
 """
 
 
@@ -21,5 +24,6 @@ for i in range(2, num+1):
         pass
     else:
         listprims.append(i)
-        
+
+print(listprims)       
 print(len(listprims))

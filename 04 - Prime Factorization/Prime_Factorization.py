@@ -1,10 +1,12 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed Apr 15 2020
+Created on Wed Apr 17 2020
 
 @author: Daniel Hryniewski
-"""
 
+Prime Factorization - Have the user enter a number and find all Prime Factors (if there are any) and display them.
+"""
+#Function pour choisir le nombre
 def choice():
     i = 0
     while True:
@@ -21,23 +23,31 @@ def choice():
             break
     return number
 
+#Function qui calcule les nombres premier
 def primes(num):
-    primes = [2]
-    x = 3
-    while x <= num:
-        for y in primes:
-            if x%y == 0:
-                x += 2
-                break
-        else:
-            primes.append(x)   
-    return primes
+    
+    listprims = [2,3,5,7]
 
+    for i in range(2, num+1):
+        if i % 2 == 0:
+            pass
+        elif i % 3 == 0:
+            pass
+        elif i % 5 == 0:
+            pass
+        elif i % 7 == 0:
+            pass
+        else:
+            listprims.append(i)
+            
+    return listprims
+
+#Function qui calcule les facteurs premiers
 def mainone(choice_num):
     my_num = choice_num
     list_primes = [1]
     z = 1
-    num = 5000
+    num = 1000000
 
     while z < choice_num:
         
@@ -54,6 +64,7 @@ def mainone(choice_num):
     
     return list_primes
     
+
 def main():
     f = choice()
     list_pri = mainone(f)
