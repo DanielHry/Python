@@ -1,9 +1,10 @@
 # Python
-All Python projects:\n
+All Python projects:
 
-03 - Fibonacci Sequence - Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.\n
-04 - Prime Factorization - Have the user enter a number and find all Prime Factors (if there are any) and display them.\n
-10 - Calculator - A simple calculator to do basic operators. Make it a scientific calculator for added complexity.\n
+03 - Fibonacci Sequence - Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
+
+04 - Prime Factorization - Have the user enter a number and find all Prime Factors (if there are any) and display them.
+10 - Calculator - A simple calculator to do basic operators. Make it a scientific calculator for added complexity.
 11 - Unit Converter (temp, currency, volume, mass and more) - Converts various units between one another. The user enters the type of unit being entered, the type of unit they want to convert to and then the value. The program will then make the conversion.
 19 - Number Names - Show how to spell out a number in English. You can use a preexisting implementation or roll your own, but you should support inputs up to at least one million (or the maximum value of your language's default bounded integer type, if that's less). Optional: Support for inputs other than positive integers (like zero, negative integers, and floating-point numbers).
 23 - Collatz Conjecture - Start with a number n > 1. Find the number of steps it takes to reach one using the following process: If n is even, divide it by 2. If n is odd, multiply it by 3 and add 1.
