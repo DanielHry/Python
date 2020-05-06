@@ -5,6 +5,8 @@ All Python projects:
 
 04 - Prime Factorization - Have the user enter a number and find all Prime Factors (if there are any) and display them.
 
+09 - Binary to Decimal and Back Converter - Develop a converter to convert a decimal number to binary or a binary number to its decimal equivalent.
+
 10 - Calculator - A simple calculator to do basic operators. Make it a scientific calculator for added complexity.
 
 11 - Unit Converter (temp, currency, volume, mass and more) - Converts various units between one another. The user enters the type of unit being entered, the type of unit they want to convert to and then the value. The program will then make the conversion.
@@ -12,6 +14,8 @@ All Python projects:
 19 - Number Names - Show how to spell out a number in English. You can use a preexisting implementation or roll your own, but you should support inputs up to at least one million (or the maximum value of your language's default bounded integer type, if that's less). Optional: Support for inputs other than positive integers (like zero, negative integers, and floating-point numbers).
 
 23 - Collatz Conjecture - Start with a number n > 1. Find the number of steps it takes to reach one using the following process: If n is even, divide it by 2. If n is odd, multiply it by 3 and add 1.
+
+24 - Sorting - Implement two types of sorting algorithms: Merge sort and bubble sort.
 
 26 - Sieve of Eratosthenes - The sieve of Eratosthenes is one of the most efficient ways to find all of the smaller primes (below 10 million or so).
 
@@ -24,3 +28,5 @@ All Python projects:
 36 - Count Vowels - Enter a string and the program counts the number of vowels in the text. For added complexity have it report a sum of each vowel found.
 
 37 - Check if Palindrome - Checks if the string entered by the user is a palindrome. That is that it reads the same forwards as backwards like “racecar”.
+
+38 - Count Words in a String - Counts the number of individual words in a string. For added complexity read these strings in from a text file and generate a summary.
